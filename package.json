@@ -13,11 +13,11 @@
     "test": "grunt test"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.6.4",
-    "grunt-contrib-uglify": "~0.2.4",
-    "grunt-contrib-jasmine": "~0.5.2",
-    "grunt-contrib-watch": "~0.5.3"
+    "grunt": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-jasmine": "*",
+    "grunt-contrib-watch": "*"
   },
   "description": "Lazyload images with jQuery",
   "bugs": {
@@ -26,8 +26,7 @@
   "homepage": "http://www.appelsiini.net/projects/lazyload",
   "main": "jquery.lazyload.js",
   "files": [
-      "jquery.lazyload.js",
-      "jquery.scrollstop.js"
+      "jquery.lazyload.js"
   ],
   "keywords": [
     "jquery-plugin",
